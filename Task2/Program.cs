@@ -97,6 +97,12 @@ namespace Task2
             }
             #endregion
 
+            #region Q11
+            // Use the ternary operator to store "Long Book" or "Short Book" in sizeLabel.
+            string sizeLabel = pages > 300 ? "Long Book" : "Short Book";
+            Console.WriteLine(sizeLabel);
+            #endregion
+
 
 
         }
