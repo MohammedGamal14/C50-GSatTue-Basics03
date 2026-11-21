@@ -121,7 +121,6 @@ namespace Task2
             }
             #endregion
 
-
             #region Q14
             // Write a do-while loop that prints "Checking book..." exactly 3 times.
             int checkCount = 0;
@@ -131,6 +130,15 @@ namespace Task2
                 checkCount++;
             } while (checkCount < 3);
             #endregion
+
+            #region Q15
+            // Use a foreach loop to print every book title.
+            foreach (string currentBook in books)
+            {
+                Console.WriteLine(currentBook);
+            }
+            #endregion
+
 
 
 
