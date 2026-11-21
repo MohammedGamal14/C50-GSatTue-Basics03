@@ -32,6 +32,12 @@ namespace Task2
             Console.WriteLine(titleBuilder);
             #endregion
 
+            #region Q4
+            // Use Replace() to change "Book List" into "Library". Print the result.
+            titleBuilder.Replace("Book List", "Library");
+            Console.WriteLine(titleBuilder);
+            #endregion
+
         }
     }
 }
