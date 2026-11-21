@@ -70,6 +70,16 @@ namespace Task2
             }
             #endregion
 
+            #region Q9
+            // Print "You can borrow this book" only if pages > 300 and isAvailable is true (&&).
+            bool isAvailable = true;
+            if (pages > 300 && isAvailable)
+            {
+                Console.WriteLine("You can borrow this book");
+            }
+            #endregion
+
+
 
         }
     }
