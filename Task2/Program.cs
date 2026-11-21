@@ -46,6 +46,13 @@ namespace Task2
             Console.WriteLine(plusSentence);
             #endregion
 
+            #region Q6
+            // Build the same sentence using string interpolation.
+            string interpolatedSentence = $"Book: {bookTitle}, Pages: {pages}";
+            Console.WriteLine(interpolatedSentence);
+            #endregion
+
+
         }
     }
 }
