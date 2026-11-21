@@ -122,6 +122,17 @@ namespace Task2
             #endregion
 
 
+            #region Q14
+            // Write a do-while loop that prints "Checking book..." exactly 3 times.
+            int checkCount = 0;
+            do
+            {
+                Console.WriteLine("Checking book...");
+                checkCount++;
+            } while (checkCount < 3);
+            #endregion
+
+
 
 
 
