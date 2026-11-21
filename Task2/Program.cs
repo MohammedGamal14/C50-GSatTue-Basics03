@@ -111,6 +111,17 @@ namespace Task2
             }
             #endregion
 
+            #region Q13
+            // Use a while loop to print every book title.
+            int whileIndex = 0;
+            while (whileIndex < books.Length)
+            {
+                Console.WriteLine(books[whileIndex]);
+                whileIndex++;
+            }
+            #endregion
+
+
 
 
 
