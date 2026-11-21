@@ -58,6 +58,17 @@ namespace Task2
             Console.WriteLine(formattedSentence);
             #endregion
 
+            #region Q8
+            // Print "Long Book" if pages > 300, otherwise "Short Book".
+            if (pages > 300)
+            {
+                Console.WriteLine("Long Book");
+            }
+            else
+            {
+                Console.WriteLine("Short Book");
+            }
+            #endregion
 
 
         }
