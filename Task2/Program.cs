@@ -38,6 +38,14 @@ namespace Task2
             Console.WriteLine(titleBuilder);
             #endregion
 
+            #region Q5
+            // Build "Book: Clean Code, Pages: 464" using the + operator.
+            string bookTitle = "Clean Code";
+            int pages = 464;
+            string plusSentence = "Book: " + bookTitle + ", Pages: " + pages;
+            Console.WriteLine(plusSentence);
+            #endregion
+
         }
     }
 }
