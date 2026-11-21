@@ -1,4 +1,6 @@
-﻿namespace Task2
+﻿using System.Text;
+
+namespace Task2
 {
     internal class Program
     {
@@ -20,6 +22,14 @@
             string firstBookTitle = "Clean Code";
             string secondBookTitle = "Clean Code";
             Console.WriteLine(ReferenceEquals(firstBookTitle, secondBookTitle));
+            #endregion
+
+            #region Q3
+            // Create a StringBuilder, Append "Book List", then Append " - Updated". Print the result.
+            StringBuilder titleBuilder = new StringBuilder();
+            titleBuilder.Append("Book List");
+            titleBuilder.Append(" - Updated");
+            Console.WriteLine(titleBuilder);
             #endregion
 
         }
