@@ -139,6 +139,19 @@ namespace Task2
             }
             #endregion
 
+            #region Q16
+            // Loop through the array and print each title, but break once you reach "Refactoring".
+            foreach (string currentBook in books)
+            {
+                if (currentBook == "Refactoring")
+                {
+                    break;
+                }
+                Console.WriteLine(currentBook);
+            }
+            #endregion
+
+
 
 
 
