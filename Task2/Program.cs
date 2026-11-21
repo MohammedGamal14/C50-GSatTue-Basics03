@@ -103,6 +103,15 @@ namespace Task2
             Console.WriteLine(sizeLabel);
             #endregion
 
+            #region Q12
+            // Use a for loop to print each book with its position number, like 1. Clean Code.
+            for (int bookIndex = 0; bookIndex < books.Length; bookIndex++)
+            {
+                Console.WriteLine((bookIndex + 1) + ". " + books[bookIndex]);
+            }
+            #endregion
+
+
 
 
         }
