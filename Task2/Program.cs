@@ -79,6 +79,24 @@ namespace Task2
             }
             #endregion
 
+            #region Q10
+            // Switch on title: "Clean Code" -> "Great choice!", "Refactoring" -> "Nice pick!",
+            // anything else -> "Never heard of it".
+            string selectedTitle = "Refactoring";
+            switch (selectedTitle)
+            {
+                case "Clean Code":
+                    Console.WriteLine("Great choice!");
+                    break;
+                case "Refactoring":
+                    Console.WriteLine("Nice pick!");
+                    break;
+                default:
+                    Console.WriteLine("Never heard of it");
+                    break;
+            }
+            #endregion
+
 
 
         }
