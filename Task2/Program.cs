@@ -151,6 +151,18 @@ namespace Task2
             }
             #endregion
 
+            #region Q17
+            // Print every title except "The Pragmatic Programmer" (use continue).
+            foreach (string currentBook in books)
+            {
+                if (currentBook == "The Pragmatic Programmer")
+                {
+                    continue;
+                }
+                Console.WriteLine(currentBook);
+            }
+            #endregion
+
 
 
 
