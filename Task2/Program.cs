@@ -52,6 +52,13 @@ namespace Task2
             Console.WriteLine(interpolatedSentence);
             #endregion
 
+            #region Q7
+            // Build the same sentence using string.Format().
+            string formattedSentence = string.Format("Book: {0}, Pages: {1}", bookTitle, pages);
+            Console.WriteLine(formattedSentence);
+            #endregion
+
+
 
         }
     }
