@@ -164,11 +164,25 @@ namespace Task2
             #endregion
 
 
-
-
-
-
-
+            #region Q18
+            // Write a method PrintFirstBook() that prints the first book.
+            // If the array is empty, use return to exit early.
+            PrintFirstBook();
+            #endregion
         }
+
+        static void PrintFirstBook()
+        {
+            if (books.Length == 0)
+            {
+                return;
+            }
+            Console.WriteLine(books[0]);
+        }
+
+
+
     }
+
 }
+
